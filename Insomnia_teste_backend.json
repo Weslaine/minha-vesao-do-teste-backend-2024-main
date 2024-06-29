@@ -1,0 +1,302 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2024-04-16T00:35:56.209Z",
+    "__export_source": "insomnia.desktop.app:v8.6.1",
+    "resources": [
+        {
+            "_id": "req_index_products",
+            "parentId": "group_ms_go",
+            "modified": 1712952105337,
+            "created": 1712951994057,
+            "url": "localhost:3000/api/v1/products",
+            "name": "Listar Produtos",
+            "description": "Lista todos os produtos",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/8.6.1"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1712952077441,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_show_product_3",
+            "parentId": "group_ms_go",
+            "modified": 1712968713545,
+            "created": 1712952011588,
+            "url": "localhost:3000/api/v1/products/3",
+            "name": "Detalhes do Produto",
+            "description": "Exibe detalhes do produto com ID 3",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/8.6.1"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1712952077341,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_create_product",
+            "parentId": "group_ms_go",
+            "modified": 1712973178156,
+            "created": 1712952037603,
+            "url": "localhost:3000/api/v1/products",
+            "name": "Criar Produto",
+            "description": "Cria um novo produto",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"name\": \"Teste do teste\",\n\t\"brand\": \"legal\",\n\t\"price\": 4999.99,\n\t\"description\": \"Super teste\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/8.6.1"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1712952077291,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_update_product_3",
+            "parentId": "group_ms_go",
+            "modified": 1712968728507,
+            "created": 1712952029112,
+            "url": "localhost:3000/api/v1/products/3",
+            "name": "Atualizar Produto",
+            "description": "Atualiza o produto com ID 3",
+            "method": "PATCH",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"description\": \"Teclado\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/8.6.1"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1712952077241,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "group_ms_rails",
+            "parentId": "workspace_teste_backend",
+            "modified": 1712952052815,
+            "created": 1712952052815,
+            "name": "ms-rails",
+            "description": "Requisições relacionadas ao backend em Rails",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1712952052815,
+            "_type": "request_group"
+        },
+        {
+            "_id": "req_index_products_rails",
+            "parentId": "group_ms_rails",
+            "modified": 1712961481510,
+            "created": 1712961474370,
+            "url": "localhost:3030/api/v1/products",
+            "name": "Listar Produtos",
+            "description": "Lista todos os produtos (Rails)",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/8.6.1"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1712952077441,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_show_product_3_rails",
+            "parentId": "group_ms_rails",
+            "modified": 1712968741745,
+            "created": 1712961474386,
+            "url": "localhost:3030/api/v1/products/3",
+            "name": "Detalhes do Produto",
+            "description": "Exibe detalhes do produto com ID 3 (Rails)",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/8.6.1"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1712952077341,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_create_product_rails",
+            "parentId": "group_ms_rails",
+            "modified": 1712975192835,
+            "created": 1712961474391,
+            "url": "localhost:3030/api/v1/products",
+            "name": "Criar Produto",
+            "description": "Cria um novo produto (Rails)",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"name\": \"Computador\",\n\t\"brand\": \"Microsoft\",\n\t\"price\": 2999.99,\n\t\"description\": \"Xbox + 2 Controles\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/8.6.1"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1712952077291,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_update_product_6_rails",
+            "parentId": "group_ms_rails",
+            "modified": 1712975283271,
+            "created": 1712961474389,
+            "url": "localhost:3030/api/v1/products/6",
+            "name": "Atualizar Produto",
+            "description": "Atualiza o produto com ID 6 (Rails)",
+            "method": "PATCH",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"description\": \"Computador + Teclado\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/8.6.1"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1712952077241,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_base_environment",
+            "parentId": "workspace_teste_backend",
+            "modified": 1712951987728,
+            "created": 1712951987728,
+            "name": "Ambiente Base",
+            "data": {},
+            "dataPropertyOrder": null,
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1712951987728,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_default_jar",
+            "parentId": "workspace_teste_backend",
+            "modified": 1712951987729,
+            "created": 1712951987729,
+            "name": "Jar Padrão",
+            "cookies": [],
+            "_type": "cookie_jar"
+        }
+    ]
+}
