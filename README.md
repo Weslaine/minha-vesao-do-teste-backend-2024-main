@@ -42,3 +42,5 @@ Ao realizar um POST/PATCH através da aplicação RAILS, o dado deve ser salvo n
 - Banco de dados relacional e no-sql
 - Ferramenta de mensageria
 - Docker
+
+# E uma referencia este teste, feito por mim.
